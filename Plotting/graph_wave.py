@@ -11,11 +11,11 @@ y1 = np.sin(x)
 y2 = np.cos(x)
 
 #plot the sin and cos functions -g = green
-plt.plot(x , y1 , "-g", label="sine")
-plt.plot(x , y2 , "-b", label="cos")
+plt.plot(x,y1 ,"-g", label="sine")
+plt.plot(x,y2,"-b", label="cos")
 
 # the legend should be in the top right corner
-plt.legend(loc = "upper right")
+plt.legend(loc="upper right")
 
 # Limit the y axis to -1.5 to 1.5
 plt.ylim(-1.5, 1.5)
